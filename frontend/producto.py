@@ -31,7 +31,7 @@ def mostrarMenuDeClientes():
     salida = False
     
     while True:
-        menu = f"{bienvenida if salida == False else separador}\n1. Listar clientes\n2. Buscar cliente\n3. Salir"
+        menu = f"{bienvenida if salida == False else separador}\n1. Listar productos\n2. Buscar producto\n3. Salir"
         print(menu)
         opcion = input(solicitud)
         salida = False
