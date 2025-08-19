@@ -37,7 +37,6 @@ def consultarProductos(id, soloValores = True):
         return None
 
 
-
 def crearProducto(id, nombre, precio, cantidad):
     if consultarProductos(id) != None:
         return False
